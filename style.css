@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+h1{
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font-family:"inter";
+  font-weight:300;
+  color:#8BC1DD;
+}
+
+canvas {
+  display: block;
+}

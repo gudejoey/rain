@@ -265,6 +265,6 @@ function initDroplets() {
 }
 
 function getRandomLowercaseLetter() {
-  const letters = "abcdefghijklmnopqrstuvwxyz";
+  const letters = "reallyniceweathertodayagirlsaidtomeiwatchedherhopawaynoyésouslapluie";
   return letters.charAt(Math.floor(random() * letters.length));
 }

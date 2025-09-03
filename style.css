@@ -15,10 +15,18 @@ html, body {
 
 
 h1{
-  
   font-family:"Courier Prime";
-  font-weight:300;
+  font-weight:400;
+  font-size:16px;
   color:#8BC1DD;
+}
+
+h1::first-letter {
+  color:#2592CA;
+}
+
+.italic{
+  font-style:italic;
 }
 
 canvas {

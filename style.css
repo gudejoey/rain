@@ -5,13 +5,18 @@ html, body {
 
 }
 
-h1{
+.wrapper{
   position:absolute;
   top: 20%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  font-family:"inter";
+}
+
+
+h1{
+  
+  font-family:"Courier Prime";
   font-weight:300;
   color:#8BC1DD;
 }
